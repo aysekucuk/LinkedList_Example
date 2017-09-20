@@ -15,7 +15,7 @@ class LinkedList:
         if self.__root:
             node.set_next(self.__root)
         self.__root = node
-        raise NotImplementedError()
+        
 
     def print_list(self):
         marker = self.__root
